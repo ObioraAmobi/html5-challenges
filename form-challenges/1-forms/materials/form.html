@@ -72,24 +72,84 @@
       <form>
          <fieldset>
             <legend>Registration</legend>
-            <label for="name">First name:</label>
-            <input type="text" id="name" required placeholder="Type first name here">
-            </br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" />
-            </br>
-            <label for="mail">Email: </label>
-            <input type="email" id="mail" required autofocus placeholder="Type e-mail here">
-            </br>
-            <label for="website">Website: </label><input type="website" id="website">
-            </br>
-            <label for="phone">Telephone</label><input type ="number" id="phone">
-            </br>
-            <label for="age">Age</label><input type="number" id="age" min="10" max="30">
-            </br>
-            <button type="submit">Submit</button>
-            </br>
-         </form>
+
+            <ul>
+               <li>
+                  <label for="name">First name:</label>
+                  <input type="text" id="name" required placeholder="Type first name here">
+               </li>    
+            
+               <li>
+                  <label for="password">Password:</label>
+                  <input type="password" id="password" />
+               </li>
+
+               <li>
+                  <label for="mail">Email:</label>
+                  <input type="email" id="mail" required autofocus placeholder="johndoe@example.com">
+               </li>
+
+               <li>
+                  <label for="website">Website:</label>
+                  <input type="url" id="website">
+               </li>
+
+               <li>
+                  <label for="phone">Telephone:</label>
+                  <input type ="tel" id="phone">
+               </li>
+
+               <li>
+                  <label for="passport">Passport Number:</label>
+                  <input id="passport">
+               </li>
+
+               <li>
+                  <label for="eircode">Eircode:</label>
+                  <input id="eircode">
+               </li>
+
+               <li>
+                  <label for="ccard">Credit Card:</label>
+                  <input type="number" id="ccard">
+               </li>
+
+               <li>
+                  <label for="age">Age:</label>
+                  <input type="number" id="age" min="18" max="50">
+               </li>
+
+               <li>
+                  <label for="date">Date:</label>
+                  <input type="date" id="date">
+               </li>
+               
+               <li>
+                  <input type="checkbox" name="course" value="Starter">Starter
+                  <input type="checkbox" name="course" value="Main">Main
+                  <input type="checkbox" name="course" value="Dessert">Dessert
+               </li>
+
+               <li>
+                  <label>Gender:</label>
+                  <input type="radio" name="gender" value="male">Male
+                  <input type="radio" name="gender" value="female">Female
+                  <input type="radio" name="gender" value="other">Other
+               </li>
+
+               <li>
+                  <select name="day">
+                  <option value="sun" selected>Sun</option>
+                  <option value="earth">Earth</option>
+                  <option value="fire">Fire</option>
+                  <option value="water">Water</option>
+                  </select>
+               </li>
+
+               <button type="submit">Submit</button>
+            </ul>
+         </fieldset>
+      </form>
     </div>
    </body>
 
